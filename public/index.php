@@ -1,7 +1,7 @@
 <?php
 
 ini_set('display_erros', true);
-chmod('/var', 0777);
+chmod(__DIR__, 0777);
 
 use App\Kernel;
 
